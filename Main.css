@@ -12,3 +12,12 @@ nav{
     padding-left: 15px;
     padding-right: 1px;
 }
+#culturetravel{
+    background-color: #f4f5f7;
+}
+.latest-news-image-styling{
+    height: 125px;
+    width: 187px;
+    padding: 12px;
+    padding-right: 16px;
+}
