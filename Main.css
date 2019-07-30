@@ -1,3 +1,14 @@
 nav{
     background-color: red;
 }
+.overflow-wrap{
+    overflow-wrap: break-word;
+}
+.opinion-image-styling{
+    padding: 12px;
+    padding-right: 16px;
+}
+.row{
+    padding-left: 15px;
+    padding-right: 1px;
+}
