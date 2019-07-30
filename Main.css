@@ -1,5 +1,12 @@
-nav{
+
+#sticky-nav{
+    position: sticky;
     background-color: red;
+    top: 0;
+    z-index: 1;
+}
+#static-nav{
+    position: static;
 }
 .overflow-wrap{
     overflow-wrap: break-word;
@@ -20,4 +27,18 @@ nav{
     width: 187px;
     padding: 12px;
     padding-right: 16px;
+}
+.card-title{
+    color: black;
+    font-family: "Roboto Condensed",sans-serif;
+    font-size: 17px;
+}
+.a-main{
+    text-decoration: none;
+    color: black;
+    
+}
+.a-main:hover{
+    color: black;
+    text-decoration: underline red solid;
 }
