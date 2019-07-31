@@ -1,5 +1,16 @@
+
+main{
+    max-width: 1310px;
+}
+
 a{
     color: black;
+}
+.card{
+    border: none;
+}
+.card-style{
+    padding-bottom: 20;
 }
 #sticky-nav{
     position: sticky;
@@ -58,11 +69,32 @@ font-family: "Roboto Condensed",sans-serif;
 }
 #sign-up-container{
     max-width: 300;
+    height: 165px;
     background-color: #f4f5f7;
+    padding: 20;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
 }
 .h-card{
     max-width: 500px;
 }
 .footer-links{
     display: inline-block;
+}
+.title{
+    display: block;
+}
+.styling-other-content{
+  padding-bottom: 40px;
+   
+}
+.title{
+    border-top: 1px solid #d9d9d9;
+    color: #f72210;
+    padding-top: 25px;
+    padding-bottom: 11px;
+    font-size: 22px;
+    line-height: 22px;
+    margin-left: 15px;
 }
