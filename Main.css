@@ -1,4 +1,6 @@
-
+a{
+    color: black;
+}
 #sticky-nav{
     position: sticky;
     background-color: red;
@@ -7,6 +9,15 @@
 }
 #static-nav{
     position: static;
+}
+#static-nav li{
+    font-size: 21px;
+line-height: 24px;
+font-weight: bold;
+font-family: "Roboto Condensed",sans-serif;
+}
+#static-nav a:hover{
+    color:red;
 }
 .overflow-wrap{
     overflow-wrap: break-word;
@@ -28,6 +39,9 @@
     padding: 12px;
     padding-right: 16px;
 }
+.card{
+    overflow:auto; 
+}
 .card-title{
     color: black;
     font-family: "Roboto Condensed",sans-serif;
@@ -41,4 +55,14 @@
 .a-main:hover{
     color: black;
     text-decoration: underline red solid;
+}
+#sign-up-container{
+    max-width: 300;
+    background-color: #f4f5f7;
+}
+.h-card{
+    max-width: 500px;
+}
+.footer-links{
+    display: inline-block;
 }
