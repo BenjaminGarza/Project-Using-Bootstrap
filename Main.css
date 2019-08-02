@@ -78,7 +78,7 @@ font-family: "Roboto Condensed",sans-serif;
     text-decoration: underline red solid;
 }
 #sign-up-container{
-    max-width: 300;
+    max-width: 300px;
     height: 165px;
     background-color: #f4f5f7;
     padding: 20;
@@ -86,6 +86,14 @@ font-family: "Roboto Condensed",sans-serif;
     margin-right: auto;
     margin-bottom: 30px;
 }
+.sign-up-title{
+    display: flex;
+    font: bold 19px/19px "Roboto Condensed",sans-serif;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    align-items: center;
+
+    }
 .h-card{
     max-width: 500px;
 }
@@ -209,4 +217,26 @@ display:inline-block;
     height: 28px;
     background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
     margin-right: 10px;
+}
+#sign-up-preferences{
+    font-weight: bold;
+}
+#sign-up-inner-container{
+    padding: 20px;
+    margin-bottom: 30px;
+}
+.sign-up-btn{
+    padding: 10px 10px 10px 12px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: white;
+    font: bold 18px/18px "Roboto Condensed",sans-serif;
+}
+.sign-up-btn::after{
+    content: "";
+display: inline-block;
+width: 8px;
+height: 14px;
+margin-left: 10px;
+background: url(https://g.newsweek.com/www/images/icon-arrow-right.svg) center/contain no-repeat;
 }
