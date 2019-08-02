@@ -97,6 +97,10 @@ font-family: "Roboto Condensed",sans-serif;
 .h-card{
     max-width: 500px;
 }
+footer a{
+    color: #666;
+}
+
 .footer-links{
     text-align: center;
 }
@@ -239,4 +243,61 @@ width: 8px;
 height: 14px;
 margin-left: 10px;
 background: url(https://g.newsweek.com/www/images/icon-arrow-right.svg) center/contain no-repeat;
+}
+.nav-menu-border{
+    border-right: 1px solid #d9d9d9;
+    padding-right: 10px;
+    margin-right: 10px;
+    
+}
+.nav{
+    border-bottom-color: #f4f5f6;
+    padding-top: 15px;
+padding-bottom: 15px;
+border-bottom-width: 2px;
+border-bottom-style: solid;
+z-index: 1;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+
+}
+.flex-left{
+    display: flex;
+    justify-content: start;
+
+}
+.bold{
+    font-weight: bold;
+}
+#footer-logo{
+    color: #f72210;
+    font-size:300%;
+font-weight: bold;
+line-height: 1.5;
+font-family: "Roboto Condensed",sans-serif;
+margin-right: 15px;
+}
+.logo-container{
+    align-items: baseline;
+}
+footer a:hover{
+    text-decoration: none;
+    color: #666;
+}
+.social-links{
+    display: flex;
+    justify-content: end;
+   
+
+}
+.social-links i{
+   font-size: 26px;
+   padding: 8px;
+}
+.social-container{
+    display: flex;
+    justify-content: end;
+    align-self: flex-end;
 }
