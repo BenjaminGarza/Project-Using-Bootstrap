@@ -8,24 +8,28 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="Main.css">
-    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,700&display=swap" rel="stylesheet">
+    <title>Newsweek Project</title>
 </head>
 
 <body>
     <header id="sticky-nav">
         <nav class="navbar">
             <a class="navbar-brand" href="#">
-                <H2>Newsweek</H2>
+                <H4 class="newsweek-logo">Newsweek</H4>
             </a>
-            <div>
-                <button>SIGN IN</button>
-                <button>Subscribe</button>
+            <div class="flex">
+                <a class="unstyled-hyperlink" href="#"> <h4><span class="white-text">SIGN IN</span></h4></a>
+                <a class="unstyled-hyperlink nav-subscribe" 
+                href="#"><h4 ><span class="red-text">SUBSCRIBE <i class="fas fa-chevron-right"></i></span></h4></a>
                 <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarmenu">
-                    <span class="navbar-toggler-icon "></span>
+                    <span class="navbar-toggler-icon ">
+                        <i class="fas fa-bars    "></i>
+                    </span>
                 </button>
             </div>
             <div class="collapse navbar-collapse" id="navbarmenu">
-                <ul class="navbar-nav">
+                <ul class="navbar-dropdown">
                     <li class="nav-item">
                         <a class="nav-link" href="#">Search</a>
                     </li>
@@ -34,9 +38,6 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">World</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#"></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Business</a>
@@ -65,48 +66,45 @@
             </div>
         </nav>
     </header>
-    <header>
-        <nav id="static-nav">
-            <ul class="nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">U.S.</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">World</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#"></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Business</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Tech & Science</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Culture</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Sports</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Health</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Opinion</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Vantage</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Search</a>
-                </li>
-
-            </ul>
-        </nav>
-    </header>
+   
     <main class="container-fluid">
-
+            <header>
+                    <nav id="static-nav">
+                        <ul class="nav">
+                            <li class="nav-item nav-menu-border">
+                                <a class="nav-link" href="#">U.S.</a>
+                            </li>
+                            <li class="nav-item nav-menu-border">
+                                <a class="nav-link" href="#">World</a>
+                            </li>
+                            <li class="nav-item nav-menu-border">
+                                <a class="nav-link" href="#">Business</a>
+                            </li>
+                            <li class="nav-item nav-menu-border">
+                                <a class="nav-link" href="#">Tech & Science</a>
+                            </li>
+                            <li class="nav-item nav-menu-border">
+                                <a class="nav-link" href="#">Culture</a>
+                            </li>
+                            <li class="nav-item nav-menu-border">
+                                <a class="nav-link" href="#">Sports</a>
+                            </li>
+                            <li class="nav-item nav-menu-border">
+                                <a class="nav-link" href="#">Health</a>
+                            </li>
+                            <li class="nav-item nav-menu-border">
+                                <a class="nav-link" href="#">Opinion</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Vantage</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Search</a>
+                            </li>
+            
+                        </ul>
+                    </nav>
+                </header>
         <div class="row">
             <div class="col-sm-6 col-lg-3">
                 <p>FEATURED STORIES</p>
@@ -122,57 +120,47 @@
                     </div>
                 </div>
                 <div class="card">
-                    <img src="https://d.newsweek.com/en/full/1511786/newsweek-momentum-awards-2019.png?w=397&h=265&q=90&f=b5bee11f8b144487ff291880f4d318be"
+                    <img src="https://d.newsweek.com/en/full/1513657/hor-moonshot-aaron-meisner-01.jpg?w=397&h=265&q=90&f=913f0652c4fd574cb42072ff7139efa8"
                         class="card-img-top" alt="Newsweek Momentum">
                     <div class="card-body">
-                        <h5 class="card-title"><a class="a-main" href="">Amazon Refuses Blame for Capital One Data
-                                Breach, Says Cloud Service Secure</a></h5>
-                        <p class="card-text">The Newsweek Momentum Awards will recognize five individuals around the
-                            globe, as well as one city, which will be chosen as the "smartest city in the world."</p>
+                        <h5 class="card-title"><a class="a-main" href="">Meet the Man Trying to Find the Theorized Ninth Planet in Our Solar System</a></h5>
+                        <p class="card-text">Meisner, a NASA Hubble Fellow, is scouring through exabytes of data collected daily to search for undiscovered planets and celestial bodies in our solar system.</p>
 
                     </div>
                 </div>
                 <div class="card">
-                    <img src="https://d.newsweek.com/en/full/1511786/newsweek-momentum-awards-2019.png?w=397&h=265&q=90&f=b5bee11f8b144487ff291880f4d318be"
+                    <img src="https://d.newsweek.com/en/full/1515773/fe-charlottesville-sidebar-qa-184306268.jpg?w=397&h=265&q=90&f=d6f35294ed0678ff06c2c064b05caf2c"
                         class="card-img-top" alt="Newsweek Momentum">
                     <div class="card-body">
-                        <h5 class="card-title"><a class="a-main" href="">Amazon Refuses Blame for Capital One Data
-                                Breach, Says Cloud Service Secure</a></h5>
-                        <p class="card-text">The Newsweek Momentum Awards will recognize five individuals around the
-                            globe, as well as one city, which will be chosen as the "smartest city in the world."</p>
+                        <h5 class="card-title"><a class="a-main" href="">Terry McAuliffe on Charlottesville, Racism and Trump</a></h5>
+                        <p class="card-text">"He failed as the moral leader of our country that day. He came out of the closet and showed us who he truly is, a racist, plain and simple," the former Virginia governor said.</p>
 
                     </div>
                 </div>
                 <div class="card">
-                    <img src="https://d.newsweek.com/en/full/1511786/newsweek-momentum-awards-2019.png?w=397&h=265&q=90&f=b5bee11f8b144487ff291880f4d318be"
+                    <img src="https://d.newsweek.com/en/full/1515615/janet-yellen-federal-reserve-mnuchin.jpg?w=397&h=265&q=90&f=218421cd54f67d3559360ab61ed9ee5a"
                         class="card-img-top" alt="Newsweek Momentum">
                     <div class="card-body">
-                        <h5 class="card-title"><a class="a-main" href="">Amazon Refuses Blame for Capital One Data
-                                Breach, Says Cloud Service Secure</a></h5>
-                        <p class="card-text">The Newsweek Momentum Awards will recognize five individuals around the
-                            globe, as well as one city, which will be chosen as the "smartest city in the world."</p>
+                        <h5 class="card-title"><a class="a-main" href="">Ex-Federal Reserve Chair Janet Yellen Agrees With Trump: Cut Rates </a></h5>
+                        <p class="card-text">"The global economy has weakened. I think partly it's because of conflicts over trade and the uncertainty that's caused for businesses," Yellen said.</p>
 
                     </div>
                 </div>
                 <div class="card">
-                    <img src="https://d.newsweek.com/en/full/1511786/newsweek-momentum-awards-2019.png?w=397&h=265&q=90&f=b5bee11f8b144487ff291880f4d318be"
+                    <img src="https://d.newsweek.com/en/full/1511789/best-nursing-homes-2020.png?w=343&h=229&f=e06577dec7407f9f74d2443585296125"
                         class="card-img-top" alt="Newsweek Momentum">
                     <div class="card-body">
-                        <h5 class="card-title"><a class="a-main" href="">Amazon Refuses Blame for Capital One Data
-                                Breach, Says Cloud Service Secure</a></h5>
-                        <p class="card-text">The Newsweek Momentum Awards will recognize five individuals around the
-                            globe, as well as one city, which will be chosen as the "smartest city in the world."</p>
+                        <h5 class="card-title"><a class="a-main" href="">Best Nursing Homes</a></h5>
+                        <p class="card-text">Newsweek is partnering with the respected global data research firm Statista Inc. to establish a ranking of Best Nursing Homes. The final rankings will be published in Newsweek magazine and on Newsweek.com</p>
 
                     </div>
                 </div>
                 <div class="card">
-                    <img src="https://d.newsweek.com/en/full/1511786/newsweek-momentum-awards-2019.png?w=397&h=265&q=90&f=b5bee11f8b144487ff291880f4d318be"
+                    <img src="https://d.newsweek.com/en/full/1502501/cultural-arts-academy-charter-school.jpg?w=343&h=229&f=75893f3cdcef509bafcd1a5c0e6d90f4"
                         class="card-img-top" alt="Newsweek Momentum">
                     <div class="card-body">
-                        <h5 class="card-title"><a class="a-main" href="">Amazon Refuses Blame for Capital One Data
-                                Breach, Says Cloud Service Secure</a></h5>
-                        <p class="card-text">The Newsweek Momentum Awards will recognize five individuals around the
-                            globe, as well as one city, which will be chosen as the "smartest city in the world."</p>
+                        <h5 class="card-title"><a class="a-main" href="">Why IB schools lead to a better degree for your child</a></h5>
+                        <p class="card-text">The International Baccalaureate (IB) accredited schools inspire young people to become lifelong learners and academic high achievers - find out more.</p>
 
                     </div>
                 </div>
@@ -191,10 +179,10 @@
                     </div>
                 </article>
                 <div class="row" id="culturetravel">
-                    <div class="col">
+                    <div class="col-md-6">
                         <h6>Culture & Travel</h6>
                         <article class="card">
-                            <img src="https://d.newsweek.com/en/full/1515563/gilroy-shooting-california.jpg?w=591&h=364&q=90&f=eacabdce176062f73ab80daf9211f4e5"
+                            <img src="https://d.newsweek.com/en/full/1515696/genever.jpg?w=397&h=265&f=49859a5df7b0ceb2bcd2f8b4b7b9aa9a"
                                 class="card-img-top" alt="Newsweek Momentum">
                             <div class="card-body">
                                 <h5 class="card-title">The Newsweek Momentum Awards</h5>
@@ -207,7 +195,7 @@
                         </article>
 
                         <article class="card">
-                            <img src="https://d.newsweek.com/en/full/1515563/gilroy-shooting-california.jpg?w=591&h=364&q=90&f=eacabdce176062f73ab80daf9211f4e5"
+                            <img src="https://d.newsweek.com/en/full/1514134/ancient-egypt-jewelry.png?w=397&h=265&f=82f483bef40556f0113fec07d2a5315b"
                                 class="card-img-top" alt="Newsweek Momentum">
                             <div class="card-body">
                                 <h5 class="card-title">The Newsweek Momentum Awards</h5>
@@ -220,9 +208,9 @@
                         </article>
                     </div>
                     <div class="col">
-                        <h6>Placeholder</h6>
+                        <h6 class="hidden">Placeholder</h6>
                         <article class="card">
-                            <img src="https://d.newsweek.com/en/full/1515563/gilroy-shooting-california.jpg?w=591&h=364&q=90&f=eacabdce176062f73ab80daf9211f4e5"
+                            <img src="https://d.newsweek.com/en/full/1515608/meteor-shooting-star.jpg?w=397&h=265&f=1f4f4b18d87b3236fdc25b0f5e94054d"
                                 class="card-img-top" alt="Newsweek Momentum">
                             <div class="card-body">
                                 <h5 class="card-title">The Newsweek Momentum Awards</h5>
@@ -234,7 +222,7 @@
                             </div>
                         </article>
                         <article class="card">
-                            <img src="https://d.newsweek.com/en/full/1515563/gilroy-shooting-california.jpg?w=591&h=364&q=90&f=eacabdce176062f73ab80daf9211f4e5"
+                            <img src="https://d.newsweek.com/en/full/1513906/cul-books-01-748319631.jpg?w=397&h=265&f=a76b1f70348747e4d543c615e152e7f7"
                                 class="card-img-top" alt="Newsweek Momentum">
                             <div class="card-body">
                                 <h5 class="card-title">The Newsweek Momentum Awards</h5>
@@ -248,7 +236,7 @@
                     </div>
                 </div>
                 <h6>MORE STORIES</h6>
-                <article class="flex-row card">
+                <article class="flex-row card more-stories">
                     <div class="">
                         <img src="https://d.newsweek.com/en/full/1515850/capital-one.jpg?w=135&h=90&f=b4b7634591f29f9daa83d5ad82bb57c2"
                             class="latest-news-image-styling" alt="Newsweek Momentum">
@@ -261,7 +249,7 @@
                             six million people in Canada.</p>
                     </div>
                 </article>
-                <article class="flex-row card">
+                <article class="flex-row card more-stories">
                     <div class="">
                         <img src="https://d.newsweek.com/en/full/1515850/capital-one.jpg?w=135&h=90&f=b4b7634591f29f9daa83d5ad82bb57c2"
                             class="latest-news-image-styling" alt="Newsweek Momentum">
@@ -274,7 +262,7 @@
                             six million people in Canada.</p>
                     </div>
                 </article>
-                <article class="flex-row card">
+                <article class="flex-row card more-stories">
                     <div class="">
                         <img src="https://d.newsweek.com/en/full/1515850/capital-one.jpg?w=135&h=90&f=b4b7634591f29f9daa83d5ad82bb57c2"
                             class="latest-news-image-styling" alt="Newsweek Momentum">
@@ -287,7 +275,7 @@
                             six million people in Canada.</p>
                     </div>
                 </article>
-                <article class="flex-row card">
+                <article class="flex-row card more-stories">
                     <div class="">
                         <img src="https://d.newsweek.com/en/full/1515850/capital-one.jpg?w=135&h=90&f=b4b7634591f29f9daa83d5ad82bb57c2"
                             class="latest-news-image-styling" alt="Newsweek Momentum">
@@ -300,7 +288,7 @@
                             six million people in Canada.</p>
                     </div>
                 </article>
-                <article class="flex-row card">
+                <article class="flex-row card more-stories">
                     <div class="">
                         <img src="https://d.newsweek.com/en/full/1515850/capital-one.jpg?w=135&h=90&f=b4b7634591f29f9daa83d5ad82bb57c2"
                             class="latest-news-image-styling" alt="Newsweek Momentum">
@@ -313,7 +301,7 @@
                             six million people in Canada.</p>
                     </div>
                 </article>
-                <article class="flex-row card">
+                <article class="flex-row card more-stories">
                     <div class="">
                         <img src="https://d.newsweek.com/en/full/1515850/capital-one.jpg?w=135&h=90&f=b4b7634591f29f9daa83d5ad82bb57c2"
                             class="latest-news-image-styling" alt="Newsweek Momentum">
@@ -328,10 +316,10 @@
                 </article>
 
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4" id="opinion-container">
                 <p>OPINION</p>
 
-                <div class="flex-row card">
+                <div class="flex-row card border-top">
                     <div class="">
                         <img src="https://d.newsweek.com/en/full/106462/robert-walker.png?w=63&h=63&f=32ea83f1b038fbd9ed3672a1db3ffff0"
                             class="opinion-image-styling" alt="Newsweek Momentum">
@@ -343,52 +331,52 @@
                 </div>
                 <div class="flex-row card">
                     <div class="">
-                        <img src="https://d.newsweek.com/en/full/106462/robert-walker.png?w=63&h=63&f=32ea83f1b038fbd9ed3672a1db3ffff0"
+                        <img src="https://d.newsweek.com/en/full/110028/mansoor-shams.png?w=63&h=63&f=2a1e9ab6e4d8a491891856366efb65d9"
                             class="opinion-image-styling" alt="Newsweek Momentum">
                     </div>
                     <div class="overflow-wrap ">
-                        <h5 class="card-title">No, Air Conditioning Won't Save You From Global Warming</h5>
-                        <p class="card-text">By Robert Walker</p>
+                        <h5 class="card-title">I'm a U.S. Marine, and This Isn't the Freedom of Speech I Served to Protect</h5>
+                        <p class="card-text">By Mansoor Shams</p>
                     </div>
                 </div>
                 <div class="flex-row card">
                     <div class="">
-                        <img src="https://d.newsweek.com/en/full/106462/robert-walker.png?w=63&h=63&f=32ea83f1b038fbd9ed3672a1db3ffff0"
+                        <img src="https://d.newsweek.com/en/full/1516911/tim-dorsey.png?w=63&h=63&f=41e0679f551c8b938907f6bb78d29494"
                             class="opinion-image-styling" alt="Newsweek Momentum">
                     </div>
                     <div class="overflow-wrap ">
-                        <h5 class="card-title">No, Air Conditioning Won't Save You From Global Warming</h5>
-                        <p class="card-text">By Robert Walker</p>
+                        <h5 class="card-title">Laughing at Florida Man Is Not Only OK—for Floridians, It's Essential</h5>
+                        <p class="card-text">By Tim Dorsey</p>
                     </div>
                 </div>
                 <div class="flex-row card">
                     <div class="">
-                        <img src="https://d.newsweek.com/en/full/106462/robert-walker.png?w=63&h=63&f=32ea83f1b038fbd9ed3672a1db3ffff0"
+                        <img src="https://d.newsweek.com/en/full/1516895/stephen-prince.png?w=63&h=63&f=1d8f0edbceaab82ca3f05010ba72d241"
                             class="opinion-image-styling" alt="Newsweek Momentum">
                     </div>
                     <div class="overflow-wrap ">
-                        <h5 class="card-title">No, Air Conditioning Won't Save You From Global Warming</h5>
-                        <p class="card-text">By Robert Walker</p>
+                        <h5 class="card-title">It's Time Republicans Tried Helping Average Americans. That Starts With Taxing People Like Me</h5>
+                        <p class="card-text">By Stephen Prince</p>
                     </div>
                 </div>
                 <div class="flex-row card">
                     <div class="">
-                        <img src="https://d.newsweek.com/en/full/106462/robert-walker.png?w=63&h=63&f=32ea83f1b038fbd9ed3672a1db3ffff0"
+                        <img src="https://d.newsweek.com/en/full/1516940/marilyn-mosby.png?w=63&h=63&f=031d1c10f31477f34ae3c53750b84ed3"
                             class="opinion-image-styling" alt="Newsweek Momentum">
                     </div>
                     <div class="overflow-wrap ">
-                        <h5 class="card-title">No, Air Conditioning Won't Save You From Global Warming</h5>
-                        <p class="card-text">By Robert Walker</p>
+                        <h5 class="card-title">What We Need in Baltimore From Trump Is Less Tweeting and More Action </h5>
+                        <p class="card-text">By Marilyn Mosby</p>
                     </div>
                 </div>
                 <div class="flex-row card">
                     <div class="">
-                        <img src="https://d.newsweek.com/en/full/106462/robert-walker.png?w=63&h=63&f=32ea83f1b038fbd9ed3672a1db3ffff0"
+                        <img src="https://d.newsweek.com/en/full/1516869/cui-tiankai.png?w=63&h=63&f=cd70a3d766f49289e500a1558d1ad9ba"
                             class="opinion-image-styling" alt="Newsweek Momentum">
                     </div>
                     <div class="overflow-wrap ">
-                        <h5 class="card-title">No, Air Conditioning Won't Save You From Global Warming</h5>
-                        <p class="card-text">By Robert Walker</p>
+                        <h5 class="card-title">One Country, Two Systems Is the Best System for Hong Kong, China—and America</h5>
+                        <p class="card-text">By Cui Tiankai</p>
                     </div>
                 </div>
 
@@ -464,31 +452,33 @@
                     </div>
                 </div>
                 <article class="card">
-                    <img src="https://d.newsweek.com/en/full/1515563/gilroy-shooting-california.jpg?w=591&h=364&q=90&f=eacabdce176062f73ab80daf9211f4e5"
+                    <img src="https://d.newsweek.com/en/full/1502124/university-southern-california-sol-price-school-public-policy.jpg?w=343&h=229&f=56b039bb46a2a59b29eca71cd945a024"
                         class="card-img-top" alt="Newsweek Momentum">
                     <div class="card-body">
-                        <h5 class="card-title"><a class="a-main" href="">Amazon Refuses Blame for Capital One Data
-                                Breach, Says Cloud Service Secure</a></h5>
-                        <p class="card-text">The Newsweek Momentum Awards will recognize five individuals around the
-                            globe, as well as one city, which will be chosen as the "smartest city in the world."</p>
+                        <h5 class="card-title"><a class="a-main" href="">What can a career in public affairs, policy & administration do for you?</a></h5>
+                        <p class="card-text">Find out what positions in this challenging and rewarding field entail and how you can get the necessary qualifications.</p>
 
                     </div>
                 </article>
                 <div id="sign-up-container">
-                    <h4>Sign up for our newsletter</h4>
-                    <button class="btn btn-secondary">Sign up</button>
+                    <div id="sign-up-inner-container">
+                    <div class="sign-up-title">
+                      <span class="icon-n"></span>
+                      Sign up for our <br> newsletter
+                    </div>
+                    <button class="btn btn-secondary sign-up-btn">
+                        Sign up
+                    </button>
                     <br>
-                    <a href="">Update your preferences »</a>
-
+                    <a id="sign-up-preferences" href="">Update your preferences »</a>
+                </div>
                 </div>
                 <article class="card">
-                    <img src="https://d.newsweek.com/en/full/1515563/gilroy-shooting-california.jpg?w=591&h=364&q=90&f=eacabdce176062f73ab80daf9211f4e5"
+                    <img src="https://d.newsweek.com/en/full/1513502/cbd-home-page-sponsored.jpg?w=343&h=229&f=9e92c1e147ffea95d5fff13e44bec9fe"
                         class="card-img-top" alt="Newsweek Momentum">
                     <div class="card-body">
-                        <h5 class="card-title"><a class="a-main" href="">Amazon Refuses Blame for Capital One Data
-                                Breach, Says Cloud Service Secure</a></h5>
-                        <p class="card-text">The Newsweek Momentum Awards will recognize five individuals around the
-                            globe, as well as one city, which will be chosen as the "smartest city in the world."</p>
+                        <h5 class="card-title"><a class="a-main" href="">The Ultimate Guide to CBD</a></h5>
+                        <p class="card-text">Heralded as “magic” by Tommy Chong, CBD is more than just a trendy buzzword. In this Special Edition from Newsweek, learn everything you need to know about CBD, from potential uses to the ever-changing legislation surrounding it.</p>
 
                     </div>
                 </article>
@@ -498,60 +488,147 @@
 
 
         </div>
-        <h5>IN THE MAGAZINE</h5>
+        <h5 class="in-the-mag-title">IN THE MAGAZINE</h5>
         <div class="row">
             <div class="row">
                 <div class="col">
                     <article class="card">
-                        <img src="https://d.newsweek.com/en/full/1515563/gilroy-shooting-california.jpg?w=591&h=364&q=90&f=eacabdce176062f73ab80daf9211f4e5"
+                        <img src="https://d.newsweek.com/en/full/1515144/august-2-2019-cover.jpg?w=360&h=480&q=90&f=688907d28478b09296692a14564fd1a0"
                             class="card-img-top" alt="Newsweek Momentum">
                         <div class="card-body">
-                            <h5 class="card-title"><a class="a-main" href="">Amazon Refuses Blame for Capital One Data
-                                    Breach, Says Cloud Service Secure</a></h5>
+                            <h1 class="card-title"><a class="a-main text-style" href="">SEE ALL FEATURES ></a></h1>
+
+                        </div>
+                    </article>
+                </div>
+               
+                <div class="col-md in-the-mag-top" id="in-the-mag-col-1">
+                    <article class="card">
+                        <img src="https://d.newsweek.com/en/full/1513527/fe-hacking-01-banner.jpg?w=466&h=311&q=90&f=bb8ad2b1cbb975b8142c1886ab45ce50"
+                            class="card-img-top" alt="Newsweek Momentum">
+                        <div class="card-body">
+                            <h5 class="card-title"><a class="a-main" href="">What Happens to Our Democracy If Russia Hacks the 2020 Vote?</a></h5>
+
+                        </div>
+                    </article>
+                </div>
+                <div class="col-md in-the-mag-top" id="in-the-mag-col-2">
+                    <article class="card">
+                        <img src="https://d.newsweek.com/en/full/1513561/fe-hacking-sidebar-clarke.jpg?w=466&h=311&q=90&f=55896c1535394b3e315073b178ff1f20"
+                            class="card-img-top" alt="Newsweek Momentum">
+                        <div class="card-body">
+                            <h5 class="card-title"><a class="a-main" href="">2020 Elections Will Be a Cyber-war That Leaves the U.S. At a Disadvantage</a></h5>
+
+                        </div>
+                    </article>
+                </div>
+                <div class="col-md in-the-mag-top" id="in-the-mag-col-3">
+                    <article class="card">
+                        <img src="https://d.newsweek.com/en/full/1505599/us-iran-history-shoot-down-plane.jpg?w=466&h=311&q=90&f=f7eea65b164e576dce360428a033ec83"
+                            class="card-img-top" alt="Newsweek Momentum">
+                        <div class="card-body">
+                            <h5 class="card-title"><a class="a-main" href="">The U.S. Killed 300 Iranian Citizens. Iranians Remember—But Americans Don't</a></h5>
+
+                        </div>
+                    </article>
+                </div>
+                
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <article class="card">
+                        <img src="https://d.newsweek.com/en/full/1513924/per-the-code-03-511574490.jpg?w=466&h=311&q=90&f=31b90e901ad3dbc556c772e49b2e1d8f"
+                            class="card-img-top" alt="Newsweek Momentum">
+                        <div class="card-body">
+                            <h5 class="card-title"><a class="a-main" href="">How Facebook Changed Social Connections and the Political Landscape Forever</a></h5>
+
+                        </div>
+                    </article>
+                </div>
+                <div class="col-md-3">
+                    <article class="card">
+                        <img src="https://d.newsweek.com/en/full/1513906/cul-books-01-748319631.jpg?w=466&h=311&q=90&f=4d4f32656f2e4a794e1a4927e8f60fe4"
+                            class="card-img-top" alt="Newsweek Momentum">
+                        <div class="card-body">
+                            <h5 class="card-title"><a class="a-main" href="">30 Last Chance Beach Reads for Summer 2019e</a></h5>
                             <p class="card-text">The Newsweek Momentum Awards will recognize five individuals around the
-                                globe, as well as one city, which will be chosen as the "smartest city in the world."
+                            
+
+                        </div>
+                    </article>
+                </div>
+                <div class="col-md-3">
+                    <article class="card">
+                        <img src="https://d.newsweek.com/en/full/1513905/partingshot-stephaniedanler.jpg?w=466&h=311&q=90&f=60ac0710ba088a9e221a33622307c6ef"
+                            class="card-img-top" alt="Newsweek Momentum">
+                        <div class="card-body">
+                            <h5 class="card-title"><a class="a-main" href="">'Sweetbitter' Season 2 Focuses on Power and Secrets, Star Ella Purnell Says
+                                    </a></h5>
+                           
+
+                        </div>
+                    </article>
+                </div>
+                <div class="col-md-3">
+                    <article class="card">
+                        <img src="https://d.newsweek.com/en/full/1516095/second-democratic-debate-live-stream2.jpg?w=591&h=394&f=35f55ff73125b70a53927cccc15da014"
+                            class="card-img-top" alt="Newsweek Momentum">
+                        <div class="card-body">
+                            <h5 class="card-title"><a class="a-main" href="">Democratic Debate Live Stream: Watch Joe Biden, Kamala Harris Face Off</a></h5>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+        <div class="editors-picks">
+                <span class="icon-n"></span>    
+               <span class="editors-picks-text"> EDITOR'S PICKS</span>
+        </div>
+        <div class="row border-top padding-top">
+            <div class="row">
+                <div class="col-sm-6 col-md-3">
+                    <article class="card">
+                        <img src="https://d.newsweek.com/en/full/1515927/anti-abortion-protest.jpg?w=397&h=295&f=5242d861e43d7f71b8ba85dee9eef180"
+                            class="card-img-top" alt="Newsweek Momentum">
+                        <div class="card-body">
+                            <h5 class="card-title"><a class="a-main" href="">Activists Submit Six New Ballot Initiatives to Ban Abortions Past 22 Weeks </a></h5>
+                            <p class="card-text">These initiatives do not include cases where the woman's life is at risk.
                             </p>
 
                         </div>
                     </article>
                 </div>
-                <div class="col">
+                <div class="col-sm-6 col-md-3">
                     <article class="card">
-                        <img src="https://d.newsweek.com/en/full/1515563/gilroy-shooting-california.jpg?w=591&h=364&q=90&f=eacabdce176062f73ab80daf9211f4e5"
+                        <img src="https://d.newsweek.com/en/full/1515848/donald-trump.jpg?w=397&h=295&f=654088d19f862ac1449eb847c04bfbc4"
                             class="card-img-top" alt="Newsweek Momentum">
                         <div class="card-body">
-                            <h5 class="card-title"><a class="a-main" href="">Amazon Refuses Blame for Capital One Data
-                                    Breach, Says Cloud Service Secure</a></h5>
-                            <p class="card-text">The Newsweek Momentum Awards will recognize five individuals around the
-                                globe, as well as one city, which will be chosen as the "smartest city in the world."
+                            <h5 class="card-title"><a class="a-main" href="">Baltimore Christian Leaders Condemn Donald Trump Over Attacks</a></h5>
+                            <p class="card-text">"Good leaders lift up, call people together, and bring out the best in them. Slamming individuals and whole communities is not leadership; it's regression," said the coalition of Baltimore religious leaders.
                             </p>
 
                         </div>
                     </article>
                 </div>
-                <div class="col">
+                <div class="col-sm-6 col-md-3">
                     <article class="card">
-                        <img src="https://d.newsweek.com/en/full/1515563/gilroy-shooting-california.jpg?w=591&h=364&q=90&f=eacabdce176062f73ab80daf9211f4e5"
+                        <img src="https://d.newsweek.com/en/full/1515910/squad-speaks-us-capitol.jpg?w=397&h=295&f=0430c638c76890fe432aec52db513037"
                             class="card-img-top" alt="Newsweek Momentum">
                         <div class="card-body">
-                            <h5 class="card-title"><a class="a-main" href="">Amazon Refuses Blame for Capital One Data
-                                    Breach, Says Cloud Service Secure</a></h5>
-                            <p class="card-text">The Newsweek Momentum Awards will recognize five individuals around the
-                                globe, as well as one city, which will be chosen as the "smartest city in the world."
+                            <h5 class="card-title"><a class="a-main" href="">Gun Shop Sparks Outrage with Billboard Insulting 'The Squad'</a></h5>
+                            <p class="card-text">The sign advertises Cherokee Guns started getting attention on Facebook and has drawn the ire of liberals and gun control advocates.
                             </p>
 
                         </div>
                     </article>
                 </div>
-                <div class="col">
+                <div class="col-sm-6 col-md-3">
                     <article class="card">
-                        <img src="https://d.newsweek.com/en/full/1515563/gilroy-shooting-california.jpg?w=591&h=364&q=90&f=eacabdce176062f73ab80daf9211f4e5"
+                        <img src="https://d.newsweek.com/en/full/1515857/grasshoppers-las-vegas.jpg?w=397&h=295&f=51162a37a20370ba4c3f198427a22c5a"
                             class="card-img-top" alt="Newsweek Momentum">
                         <div class="card-body">
-                            <h5 class="card-title"><a class="a-main" href="">Amazon Refuses Blame for Capital One Data
-                                    Breach, Says Cloud Service Secure</a></h5>
-                            <p class="card-text">The Newsweek Momentum Awards will recognize five individuals around the
-                                globe, as well as one city, which will be chosen as the "smartest city in the world."
+                                <a class="a-main" href="#"><h5 class="card-title">Swarms of Grasshoppers Invade Las Vegas, Show up on Weather Radar</h5></a>
+                            <p class="card-text">Experts say that the insects were likely attracted to the city due to abnormally wet conditions.
                             </p>
 
                         </div>
@@ -559,57 +636,49 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col">
+                <div class="col-sm-6 col-md-3">
                     <article class="card">
-                        <img src="https://d.newsweek.com/en/full/1515563/gilroy-shooting-california.jpg?w=591&h=364&q=90&f=eacabdce176062f73ab80daf9211f4e5"
+                        <img src="https://d.newsweek.com/en/full/1515870/vg-siddhartha.jpg?w=397&h=295&f=a0b7674d0e9df05223836e50c3f5d288"
                             class="card-img-top" alt="Newsweek Momentum">
                         <div class="card-body">
-                            <h5 class="card-title"><a class="a-main" href="">Amazon Refuses Blame for Capital One Data
-                                    Breach, Says Cloud Service Secure</a></h5>
-                            <p class="card-text">The Newsweek Momentum Awards will recognize five individuals around the
-                                globe, as well as one city, which will be chosen as the "smartest city in the world."
+                            <h5 class="card-title"><a class="a-main" href="">Who Is V.G. Siddhartha? Billionaire Coffee Tycoon Mysteriously Disappears</a></h5>
+                            <p class="card-text">Founder of Cafe Coffee Day writes letter to shareholders apologizing for mistakes before going missing.
                             </p>
 
                         </div>
                     </article>
                 </div>
-                <div class="col">
+                <div class="col-sm-6 col-md-3">
                     <article class="card">
-                        <img src="https://d.newsweek.com/en/full/1515563/gilroy-shooting-california.jpg?w=591&h=364&q=90&f=eacabdce176062f73ab80daf9211f4e5"
+                        <img src="https://d.newsweek.com/en/full/1515884/contact-lens.png?w=397&h=295&f=214edbd581d789546c58895b74c9ba95"
                             class="card-img-top" alt="Newsweek Momentum">
                         <div class="card-body">
-                            <h5 class="card-title"><a class="a-main" href="">Amazon Refuses Blame for Capital One Data
-                                    Breach, Says Cloud Service Secure</a></h5>
-                            <p class="card-text">The Newsweek Momentum Awards will recognize five individuals around the
-                                globe, as well as one city, which will be chosen as the "smartest city in the world."
+                            <h5 class="card-title"><a class="a-main" href="">Soft Contact Lens That Can Zoom in When You Blink Twice Developed</a></h5>
+                            <p class="card-text">The researchers utilized special electric signals generated by eye movements to control and change the focal length of the soft lens.The researchers utilized special electric signals generated by eye movements to control and change the focal length of the soft lens.
                             </p>
 
                         </div>
                     </article>
                 </div>
-                <div class="col">
+                <div class="col-sm-6 col-md-3">
                     <article class="card">
-                        <img src="https://d.newsweek.com/en/full/1515563/gilroy-shooting-california.jpg?w=591&h=364&q=90&f=eacabdce176062f73ab80daf9211f4e5"
+                        <img src="https://d.newsweek.com/en/full/1515705/afg2kia-29july2019.jpg?w=397&h=295&f=0e5bf3dd8780c6805b9182cc23e4910a"
                             class="card-img-top" alt="Newsweek Momentum">
                         <div class="card-body">
-                            <h5 class="card-title"><a class="a-main" href="">Amazon Refuses Blame for Capital One Data
-                                    Breach, Says Cloud Service Secure</a></h5>
-                            <p class="card-text">The Newsweek Momentum Awards will recognize five individuals around the
-                                globe, as well as one city, which will be chosen as the "smartest city in the world."
+                            <h5 class="card-title"><a class="a-main" href="">Two U.S. Service Members Killed in Insider Attack in Afghanistan </a></h5>
+                            <p class="card-text">Two American service members in Afghanistan were killed Monday afternoon in what a Defense Department source described as an apparent insider attack by a member of Afghanistan's national army.
                             </p>
 
                         </div>
                     </article>
                 </div>
-                <div class="col">
+                <div class="col-sm-6 col-md-3">
                     <article class="card">
-                        <img src="https://d.newsweek.com/en/full/1515563/gilroy-shooting-california.jpg?w=591&h=364&q=90&f=eacabdce176062f73ab80daf9211f4e5"
+                        <img src="https://d.newsweek.com/en/full/1515569/gilroy.jpg?w=397&h=295&f=551f651c241558be04a7804f744553e5"
                             class="card-img-top" alt="Newsweek Momentum">
                         <div class="card-body">
-                            <h5 class="card-title"><a class="a-main" href="">Amazon Refuses Blame for Capital One Data
-                                    Breach, Says Cloud Service Secure</a></h5>
-                            <p class="card-text">The Newsweek Momentum Awards will recognize five individuals around the
-                                globe, as well as one city, which will be chosen as the "smartest city in the world."
+                            <h5 class="card-title"><a class="a-main" href="">#GunControlNow Trends After Gilroy Shooting</a></h5>
+                            <p class="card-text">"We need gun reform and we need it now," said Democratic California Representative Eric Swalwell.
                             </p>
 
                         </div>
@@ -617,165 +686,41 @@
                 </div>
             </div>
         </div>
-        <h5>EDITORS PICKS</h5>
-        <div class="row">
-            <div class="row">
-                <div class="col">
-                    <article class="card">
-                        <img src="https://d.newsweek.com/en/full/1515563/gilroy-shooting-california.jpg?w=591&h=364&q=90&f=eacabdce176062f73ab80daf9211f4e5"
-                            class="card-img-top" alt="Newsweek Momentum">
-                        <div class="card-body">
-                            <h5 class="card-title"><a class="a-main" href="">Amazon Refuses Blame for Capital One Data
-                                    Breach, Says Cloud Service Secure</a></h5>
-                            <p class="card-text">The Newsweek Momentum Awards will recognize five individuals around the
-                                globe, as well as one city, which will be chosen as the "smartest city in the world."
-                            </p>
-
-                        </div>
-                    </article>
-                </div>
-                <div class="col">
-                    <article class="card">
-                        <img src="https://d.newsweek.com/en/full/1515563/gilroy-shooting-california.jpg?w=591&h=364&q=90&f=eacabdce176062f73ab80daf9211f4e5"
-                            class="card-img-top" alt="Newsweek Momentum">
-                        <div class="card-body">
-                            <h5 class="card-title"><a class="a-main" href="">Amazon Refuses Blame for Capital One Data
-                                    Breach, Says Cloud Service Secure</a></h5>
-                            <p class="card-text">The Newsweek Momentum Awards will recognize five individuals around the
-                                globe, as well as one city, which will be chosen as the "smartest city in the world."
-                            </p>
-
-                        </div>
-                    </article>
-                </div>
-                <div class="col">
-                    <article class="card">
-                        <img src="https://d.newsweek.com/en/full/1515563/gilroy-shooting-california.jpg?w=591&h=364&q=90&f=eacabdce176062f73ab80daf9211f4e5"
-                            class="card-img-top" alt="Newsweek Momentum">
-                        <div class="card-body">
-                            <h5 class="card-title"><a class="a-main" href="">Amazon Refuses Blame for Capital One Data
-                                    Breach, Says Cloud Service Secure</a></h5>
-                            <p class="card-text">The Newsweek Momentum Awards will recognize five individuals around the
-                                globe, as well as one city, which will be chosen as the "smartest city in the world."
-                            </p>
-
-                        </div>
-                    </article>
-                </div>
-                <div class="col">
-                    <article class="card">
-                        <img src="https://d.newsweek.com/en/full/1515563/gilroy-shooting-california.jpg?w=591&h=364&q=90&f=eacabdce176062f73ab80daf9211f4e5"
-                            class="card-img-top" alt="Newsweek Momentum">
-                        <div class="card-body">
-                            <h5 class="card-title"><a class="a-main" href="">Amazon Refuses Blame for Capital One Data
-                                    Breach, Says Cloud Service Secure</a></h5>
-                            <p class="card-text">The Newsweek Momentum Awards will recognize five individuals around the
-                                globe, as well as one city, which will be chosen as the "smartest city in the world."
-                            </p>
-
-                        </div>
-                    </article>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col">
-                    <article class="card">
-                        <img src="https://d.newsweek.com/en/full/1515563/gilroy-shooting-california.jpg?w=591&h=364&q=90&f=eacabdce176062f73ab80daf9211f4e5"
-                            class="card-img-top" alt="Newsweek Momentum">
-                        <div class="card-body">
-                            <h5 class="card-title"><a class="a-main" href="">Amazon Refuses Blame for Capital One Data
-                                    Breach, Says Cloud Service Secure</a></h5>
-                            <p class="card-text">The Newsweek Momentum Awards will recognize five individuals around the
-                                globe, as well as one city, which will be chosen as the "smartest city in the world."
-                            </p>
-
-                        </div>
-                    </article>
-                </div>
-                <div class="col">
-                    <article class="card">
-                        <img src="https://d.newsweek.com/en/full/1515563/gilroy-shooting-california.jpg?w=591&h=364&q=90&f=eacabdce176062f73ab80daf9211f4e5"
-                            class="card-img-top" alt="Newsweek Momentum">
-                        <div class="card-body">
-                            <h5 class="card-title"><a class="a-main" href="">Amazon Refuses Blame for Capital One Data
-                                    Breach, Says Cloud Service Secure</a></h5>
-                            <p class="card-text">The Newsweek Momentum Awards will recognize five individuals around the
-                                globe, as well as one city, which will be chosen as the "smartest city in the world."
-                            </p>
-
-                        </div>
-                    </article>
-                </div>
-                <div class="col">
-                    <article class="card">
-                        <img src="https://d.newsweek.com/en/full/1515563/gilroy-shooting-california.jpg?w=591&h=364&q=90&f=eacabdce176062f73ab80daf9211f4e5"
-                            class="card-img-top" alt="Newsweek Momentum">
-                        <div class="card-body">
-                            <h5 class="card-title"><a class="a-main" href="">Amazon Refuses Blame for Capital One Data
-                                    Breach, Says Cloud Service Secure</a></h5>
-                            <p class="card-text">The Newsweek Momentum Awards will recognize five individuals around the
-                                globe, as well as one city, which will be chosen as the "smartest city in the world."
-                            </p>
-
-                        </div>
-                    </article>
-                </div>
-                <div class="col">
-                    <article class="card">
-                        <img src="https://d.newsweek.com/en/full/1515563/gilroy-shooting-california.jpg?w=591&h=364&q=90&f=eacabdce176062f73ab80daf9211f4e5"
-                            class="card-img-top" alt="Newsweek Momentum">
-                        <div class="card-body">
-                            <h5 class="card-title"><a class="a-main" href="">Amazon Refuses Blame for Capital One Data
-                                    Breach, Says Cloud Service Secure</a></h5>
-                            <p class="card-text">The Newsweek Momentum Awards will recognize five individuals around the
-                                globe, as well as one city, which will be chosen as the "smartest city in the world."
-                            </p>
-
-                        </div>
-                    </article>
-                </div>
-            </div>
+        <div class="editors-picks">
+                <span class="icon-n"></span>    
+               <span class="editors-picks-text"> FEATURED SLIDESHOWS</span>
         </div>
-        <h5>FEATURED SLIDESHOWS</h5>
-        <div class="row">
+        <div class="row border-top padding-top">
             <div class="row">
                 <div class="col-md-4">
                     <article class="card">
-                        <img src="https://d.newsweek.com/en/full/1515563/gilroy-shooting-california.jpg?w=591&h=364&q=90&f=eacabdce176062f73ab80daf9211f4e5"
+                        <img src="https://d.newsweek.com/en/full/1514149/pierre-cardin.jpg?w=397&h=265&l=34&t=27&f=74dc444a96f906b4d71ec24a0df32e52"
                             class="card-img-top" alt="Newsweek Momentum">
                         <div class="card-body">
-                            <h5 class="card-title"><a class="a-main" href="">Amazon Refuses Blame for Capital One Data
-                                    Breach, Says Cloud Service Secure</a></h5>
-                            <p class="card-text">The Newsweek Momentum Awards will recognize five individuals around the
-                                globe, as well as one city, which will be chosen as the "smartest city in the world."
-                            </p>
+                            <h4 class="featured-card-title"><a class="a-main" href="">Avant Garde King Pierre Cardin Takes Brooklyn by Storm </a></h4>
+                            
 
                         </div>
                     </article>
                 </div>
                 <div class="col-md-4">
                     <article class="card">
-                        <img src="https://d.newsweek.com/en/full/1515563/gilroy-shooting-california.jpg?w=591&h=364&q=90&f=eacabdce176062f73ab80daf9211f4e5"
+                        <img src="https://d.newsweek.com/en/full/1511473/oscar-11.jpg?w=397&h=265&f=bb7385a6191b40fe082f868859587304"
                             class="card-img-top" alt="Newsweek Momentum">
                         <div class="card-body">
-                            <h5 class="card-title"><a class="a-main" href="">Amazon Refuses Blame for Capital One Data
-                                    Breach, Says Cloud Service Secure</a></h5>
-                            <p class="card-text">Test5
-                            </p>
+                            <h4 class="featured-card-title"><a class="a-main" href="">The Revamped Oscar de la Renta Is All the Rage</a></h4>
+                           
 
                         </div>
                     </article>
                 </div>
                 <div class="col-md-4">
                     <article class="card">
-                        <img src="https://d.newsweek.com/en/full/1515563/gilroy-shooting-california.jpg?w=591&h=364&q=90&f=eacabdce176062f73ab80daf9211f4e5"
+                        <img src="https://d.newsweek.com/en/full/1509498/lions-safari.jpg?w=397&h=265&l=0&t=0&f=afdd7b8de0f1e30d30fd23ee9d8de1c7"
                             class="card-img-top" alt="Newsweek Momentum">
                         <div class="card-body">
-                            <h5 class="card-title"><a class="a-main" href="">Amazon Refuses Blame for Capital One Data
-                                    Breach, Says Cloud Service Secure</a></h5>
-                            <p class="card-text">The Newsweek Momentum Awards will recognize five individuals around the
-                                globe, as well as one city, which will be chosen as the "smartest city in the world."
-                            </p>
+                            <h4 class="featured-card-title"><a class="a-main" href="">How to Survive a Walking Safari in Africa</a></h4>
+                          
 
                         </div>
                     </article>
@@ -784,42 +729,33 @@
             <div class="row">
                 <div class="col-md-4">
                     <article class="card">
-                        <img src="https://d.newsweek.com/en/full/1515563/gilroy-shooting-california.jpg?w=591&h=364&q=90&f=eacabdce176062f73ab80daf9211f4e5"
+                        <img src="https://d.newsweek.com/en/full/1508579/papua-new-guinea-diving-5.jpg?w=397&h=265&f=ef31ddb1cbe8c40714c16af48aaed9f6"
                             class="card-img-top" alt="Newsweek Momentum">
                         <div class="card-body">
-                            <h5 class="card-title"><a class="a-main" href="">Amazon Refuses Blame for Capital One Data
-                                    Breach, Says Cloud Service Secure</a></h5>
-                            <p class="card-text">The Newsweek Momentum Awards will recognize five individuals around the
-                                globe, as well as one city, which will be chosen as the "smartest city in the world."
-                            </p>
+                                <a class="a-main" href="#"><h4 class="featured-card-title">Under the Sea: A Diving Bucket List </h4></a>
+                           
 
                         </div>
                     </article>
                 </div>
                 <div class="col-md-4">
                     <article class="card">
-                        <img src="https://d.newsweek.com/en/full/1515563/gilroy-shooting-california.jpg?w=591&h=364&q=90&f=eacabdce176062f73ab80daf9211f4e5"
+                        <img src="https://d.newsweek.com/en/full/1506562/us-space-rocket-center.jpg?w=397&h=265&f=2e9a742611134322537a4553d9d98e59"
                             class="card-img-top" alt="Newsweek Momentum">
                         <div class="card-body">
-                            <h5 class="card-title"><a class="a-main" href="">Amazon Refuses Blame for Capital One Data
-                                    Breach, Says Cloud Service Secure</a></h5>
-                            <p class="card-text">The Newsweek Momentum Awards will recognize five individuals around the
-                                globe, as well as one city, which will be chosen as the "smartest city in the world."
-                            </p>
+                            <h4 class="featured-card-title"><a class="a-main" href="">One Giant Leap: 5 U.S. Destinations That Helped Put Man on the Moon</a></h4>
+                           
 
                         </div>
                     </article>
                 </div>
                 <div class="col-md-4">
                     <article class="card">
-                        <img src="https://d.newsweek.com/en/full/1515563/gilroy-shooting-california.jpg?w=591&h=364&q=90&f=eacabdce176062f73ab80daf9211f4e5"
+                        <img src="https://d.newsweek.com/en/full/1506127/screaming-queens-before-stonewall-comptons-cafeteria-riot.jpg?w=397&h=265&f=8026342d93704d4734e44082b7578d19"
                             class="card-img-top" alt="Newsweek Momentum">
                         <div class="card-body">
-                            <h5 class="card-title"><a class="a-main" href="">Amazon Refuses Blame for Capital One Data
-                                    Breach, Says Cloud Service Secure</a></h5>
-                            <p class="card-text">The Newsweek Momentum Awards will recognize five individuals around the
-                                globe, as well as one city, which will be chosen as the "smartest city in the world."
-                            </p>
+                            <h4 class="featured-card-title"><a class="a-main" href="">10 Queer Rebellions Before Stonewall</a></h4>
+                           
 
                         </div>
                     </article>
@@ -831,65 +767,57 @@
         <div class="row">
             <div class="col-md-4">
                 <article class="card">
-                    <img src="https://d.newsweek.com/en/full/1515563/gilroy-shooting-california.jpg?w=591&h=364&q=90&f=eacabdce176062f73ab80daf9211f4e5"
+                    <img src="https://d.newsweek.com/en/full/1515902/brian-kilmeade-fox-friends-baltimore-schools.jpg?w=397&h=265&f=9fef5c02a415a2073a189199c4de69ec"
                         class="card-img-top" alt="Newsweek Momentum">
                     <div class="card-body">
-                        <h5 class="card-title"><a class="a-main" href="">Amazon Refuses Blame for Capital One Data
-                                Breach, Says Cloud Service Secure</a></h5>
-                        <p class="card-text">The Newsweek Momentum Awards will recognize five individuals around the
-                            globe, as well as one city, which will be chosen as the "smartest city in the world."
-                        </p>
+                        <h5 class="card-title"><a class="a-main" href="">Fox Host Bashes Baltimore Schools in Trump's Defense, Cites Low Test Scores </a></h5>
+                        
 
                     </div>
                 </article>
             </div>
             <div class="col-md-4">
                 <article class="card">
-                    <img src="https://d.newsweek.com/en/full/1515563/gilroy-shooting-california.jpg?w=591&h=364&q=90&f=eacabdce176062f73ab80daf9211f4e5"
+                    <img src="https://d.newsweek.com/en/full/1515917/university-washington-college-republicans-globohomo.jpg?w=397&h=265&f=3c077a14ca77f9f06289e836e24498f2"
                         class="card-img-top" alt="Newsweek Momentum">
                     <div class="card-body">
-                        <h5 class="card-title"><a class="a-main" href="">Amazon Refuses Blame for Capital One Data
-                                Breach, Says Cloud Service Secure</a></h5>
-                        <p class="card-text">The Newsweek Momentum Awards will recognize five individuals around the
-                            globe, as well as one city, which will be chosen as the "smartest city in the world."
-                        </p>
+                        <h5 class="card-title"><a class="a-main" href="">'GloboHomo Agenda': UW College Republicans Defend Controversial Tweet</a></h5>
+                      
 
                     </div>
                 </article>
             </div>
             <div class="col-md-4">
                 <div class="row">
-                    <article class="flex-row card">
+                    <article class="flex-row card other-content-border-bottom">
                         <div class="">
-                            <img src="https://d.newsweek.com/en/full/1515850/capital-one.jpg?w=135&h=90&f=b4b7634591f29f9daa83d5ad82bb57c2"
+                            <img src="https://d.newsweek.com/en/full/1515908/alexandria-ocasio-cortez.jpg?w=135&h=90&f=402c4def929c75d7f3d4a643c46b2abb"
                                 class="latest-news-image-styling" alt="Newsweek Momentum">
                         </div>
-                        <div class="overflow-wrap ">
-                            <h4 class="card-title"><a class="a-main" href="">GOP Rep Accuses AOC of Misleading Americans About Border Conditions</a></h4>
+                        <div class="overflow-wrap">
+                            <h4 class="card-title title-top-padding"><a class="a-main" href="">GOP Rep Accuses AOC of Misleading Americans About Border Conditions</a></h4>
                         </div>
                     </article>
                 </div>
                 <div class="row">
                     <article class="flex-row card">
                         <div class="">
-                            <img src="https://d.newsweek.com/en/full/1515850/capital-one.jpg?w=135&h=90&f=b4b7634591f29f9daa83d5ad82bb57c2"
+                            <img src="https://d.newsweek.com/en/full/1515919/alveda-king.jpg?w=135&h=90&f=faf3ecd05a84f17d6518251f6bc0d876"
                                 class="latest-news-image-styling" alt="Newsweek Momentum">
                         </div>
                         <div class="overflow-wrap ">
-                            <h4 class="card-title"><a class="a-main" href="">Amazon Refuses Blame for Capital One Data
-                                    Breach, Says Cloud Service Secure</a></h4>
+                            <h4 class="card-title title-top-padding"><a class="a-main" href="">MLK's Niece Defends Trump Against 'Fake' Racism Accusations</a></h4>
                         </div>
                     </article>
                 </div>
                 <div class="row">
-                    <article class="flex-row card">
+                    <article class="flex-row card border-top">
                         <div class="">
-                            <img src="https://d.newsweek.com/en/full/1515850/capital-one.jpg?w=135&h=90&f=b4b7634591f29f9daa83d5ad82bb57c2"
+                            <img src="https://d.newsweek.com/en/full/1515893/peaky-blinders-season-5.jpg?w=135&h=90&f=adac632f0d3c8ce524a2107defa06353"
                                 class="latest-news-image-styling" alt="Newsweek Momentum">
                         </div>
-                        <div class="overflow-wrap ">
-                            <h4 class="card-title"><a class="a-main" href="">Amazon Refuses Blame for Capital One Data
-                                    Breach, Says Cloud Service Secure</a></h4>
+                        <div class="overflow-wrap">
+                            <h4 class="card-title title-top-padding"><a class="a-main" href="">When is 'Peaky Blinders' Season 5 Coming to Netflix?</a></h4>
                         </div>
                     </article>
                 </div>
@@ -898,70 +826,119 @@
         </section>
 
         <div class="row">
-            <div class="col">
+            <div class="col-md-6">
+                    <div class="block-title">SUBSCRIBE</div>
                 <article class="flex-row card">
-                    <div class="">
-                        <img src="https://d.newsweek.com/en/full/1515850/capital-one.jpg?w=135&h=90&f=b4b7634591f29f9daa83d5ad82bb57c2"
-                            class="latest-news-image-styling" alt="Newsweek Momentum">
+                    <div class="image-container">
+                       <div class="mag-thumb prev">
+                        <img class="" src="https://d.newsweek.com/en/full/1512696/july-26-2019-cover.jpg?w=170&q=95&f=62e741a78533834d86c15249d07b772a" alt="Old cover">
+                        <img class="current" src="https://d.newsweek.com/en/full/1515144/august-2-2019-cover.jpg?w=170&q=95&f=f8d91303bdbdcfe3a6f274aea9b10043" alt="New cover">
+                       </div>
+                    
                     </div>
                     <div class="overflow-wrap ">
-                        <h4 class="card-title"><a class="a-main" href="">Amazon Refuses Blame for Capital One Data
-                                Breach, Says Cloud Service Secure</a></h4>
-                        <p>Amazon Web Services "was not compromised in any way and functioned as designed," the firm
-                            told Newsweek. Capital One said a breach impacted 100 million individuals in the U.S. and
-                            six million people in Canada.</p>
+                        <h4 class="card-title"><a class="a-main" href="">In-depth Stories You Don't See Elsewhere About Topics You Want to Read!</a></h4>
+                        <p>All Access + Weekly Delivery. <br>
+                                Choose A Membership That's Perfect for You!</p>
+                                <br>
+                                <a href="#">
+                                <span class="fake-button">
+                                  Subscribe
+                                </span>
+                               </a>
                     </div>
                 </article>
             </div>
-            <div class="col">
+            <div class="col-md-6">
+                <div class="block-title">NEWSLETTER</div>
                 <article class="flex-row card">
                     <div class="">
-                        <img src="https://d.newsweek.com/en/full/1515850/capital-one.jpg?w=135&h=90&f=b4b7634591f29f9daa83d5ad82bb57c2"
+                        <img src="https://g.newsweek.com/themes/newsweek/images/subscribe-img2.gif"
                             class="latest-news-image-styling" alt="Newsweek Momentum">
                     </div>
                     <div class="overflow-wrap ">
-                        <h4 class="card-title"><a class="a-main" href="">Amazon Refuses Blame for Capital One Data
-                                Breach, Says Cloud Service Secure</a></h4>
-                        <p>Amazon Web Services "was not compromised in any way and functioned as designed," the firm
-                            told Newsweek. Capital One said a breach impacted 100 million individuals in the U.S. and
-                            six million people in Canada.</p>
+                        <h4 class="card-title"><a class="a-main" href="">Daily Briefing</a></h4>
+                        <p>Take back your inbox. Sign up for our newsletter and start making sense of the world around you.</p>
+                        <a href="#">
+                            <span class="fake-button">
+                              Subscribe
+                            </span>
+                           </a>
                     </div>
+                    
                 </article>
             </div>
 
         </div>
         <footer class="page-footer">
-            <div class="newsweek logo">
-
+            <div class="row newsweek logo">
+                <div class="col-8">
+                    <div class="flex-left logo-container">
+                 <span id="footer-logo">
+                    Newsweek
+                 </span>
+                            <p class="copyright">© 2019 Newsweek</p>
+                        </div>
+                        </div>
+                        <div class="col-4 social-container">
+                            <ul class="list-unstyled footer-links social-links">
+                                <li ><i class="fab fa-facebook" aria-hidden="true"></i></li>
+                                <li><i class="fab fa-twitter"></i></li>
+                                <li><i class="fab fa-instagram    "></i></li>
+                                <li><i class="fab fa-tumblr"></i></li>
+                                <li><i class ="fab fa-linkedin"></i></li>
+                            </ul>
+                        </div>
             </div>
-            <div class="row">
+            <div class="row border-top">
                 <div class="col">
+                    <div class="row">
+                        <ul class="list-unstyled footer-links">
+                            <!-- May need to turn these into columns to render properly 
+                            on small devices-->
+                            <li class="nav-menu-border"><a href="">About Us</a></li>
+                            <li class="nav-menu-border"><a href="">Corrections</a></li>
+                            <li class="nav-menu-border"><a href="">Contact Us</a></li>
+                            <li class="nav-menu-border"><a href="">Editorial Guidelines</a></li>
+                            <li class="nav-menu-border"><a href="">Articles</a></li>
+                            <li class="nav-menu-border"><a href="">Copyright</a></li>
+                        </ul>
+                        </div>
+                    
+                    <div class="row">
+                        <ul class="list-unstyled footer-links">
+                                <li class="nav-menu-border"><a href="">Terms & Conditions</a></li>
+                                <li class="nav-menu-border"><a href="">Privacy Policy</a></li>
+                                <li class="nav-menu-border"><a href="">Cookie Policy</a></li>
+                                <li class="nav-menu-border"><a href="">Terms of Sale</a></li>
+                                <li class="nav-menu-border"><a href="">Archive</a></li>
+                                <li class="nav-menu-border"><a href="">Announcements</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="row">
+                        <ul class="list-unstyled footer-links">
+                                <li><a href="">Consent preferences</a></li>
+                        </ul>
+                    </div>  
+                </div>
+
+                <div class="col">
+                    <div class="row flex">
+                            <ul class="list-unstyled footer-links">
+                                    <li class="nav-menu-border bold"><a href="">Editions:</a></li>
+                                    <li class="nav-menu-border"><a href="">U.S. Edition</a></li>
+                                    <li class="nav-menu-border"><a href="">日本</a></li>
+                                    <li class="nav-menu-border"><a href="">한국</a></li>
+                                    <li class="nav-menu-border"><a href="">Pakistan</a></li>
+                            </ul>
+                    </div>
+                    <div class="row flex">
                     <ul class="list-unstyled footer-links">
-                        <li><a href="">About Us</a></li>
-                        <li><a href="">Corrections</a></li>
-                        <li><a href="">Contact Us</a></li>
-                        <li><a href="">Editorial Guidelines</a></li>
-                        <li><a href="">Articles</a></li>
-                        <li><a href="">Copyright</a></li>
-                        <li><a href="">Terms & Conditions</a></li>
-                        <li><a href="">Privacy Policy</a></li>
-                        <li><a href="">Cookie Polic</a></li>
-                        <li><a href="">Terms of Sale</a></li>
-                        <li><a href="">Archive</a></li>
-                        <li><a href="">Announcements</a></li>
-                        <li><a href="">onsent preferences</a></li>
+                        <li class="nav-menu-border"><a href="">Polska</a></li>
+                        <li class="nav-menu-border"><a href="">Romania</a></li>
                     </ul>
                 </div>
-                <div class="col">
-                    <ul class="list-unstyled">
-                        <li><a href="">Editions:</a></li>
-                        <li><a href="">U.S. Edition</a></li>
-                        <li><a href="">日本</a></li>
-                        <li><a href="">한국</a></li>
-                        <li><a href="">Pakistan</a></li>
-                        <li><a href="">Polska</a></li>
-                        <li><a href="">Romania</a></li>
-                    </ul>
                 </div>
             </div>
         </footer>
@@ -977,6 +954,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/2ce1502211.js"></script>
 </body>
 
 </html>
