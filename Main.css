@@ -310,9 +310,7 @@ footer a:hover{
     color: red;
     padding: 10px;
 }
-.navbar-toggle-icon{
-  
-}
+
 .navbar-toggle-icon span{
     background-color: grey;
     display: inline-block;
@@ -321,12 +319,17 @@ footer a:hover{
 }
 .navbar-dropdown{
     position:absolute;
-    text-decoration: none;
-    float: right;
+    right: 0;
+    left: auto;
     background-color: white;
+    list-style: none;
+    margin-top: 8px;
+    padding-left: 0;
+    font-weight: bold;
 }
-.navbar-dropdown:hover{
-    
+.navbar-dropdown li:hover{
+    color: white;
+    background-color: black;
 }
 .white-text{
     color: white;
