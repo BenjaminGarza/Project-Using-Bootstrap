@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="Main.css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,700&display=swap" rel="stylesheet">
     <title>Newsweek Project</title>
 </head>
 
@@ -15,11 +16,11 @@
     <header id="sticky-nav">
         <nav class="navbar">
             <a class="navbar-brand" href="#">
-                <H2 class="newsweek-logo">Newsweek</H2>
+                <H4 class="newsweek-logo">Newsweek</H4>
             </a>
-            <div>
-                <button>SIGN IN</button>
-                <button>Subscribe</button>
+            <div class="flex">
+                <span><h4 class="white-text">SIGN IN</h4></span>
+                <span class="nav-subscribe"><h4 class="red-text">SUBSCRIBE</h4></span>
                 <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarmenu">
                     <span class="navbar-toggler-icon "></span>
                 </button>
@@ -821,9 +822,9 @@
         </div>
         </section>
 
-        <div class="row-sm">
-            <div class="col">
-                    <div class="block-title red">Subscribe</div>
+        <div class="row-md">
+            <div class="col-6-md">
+                    <div class="block-title">SUBSCRIBE</div>
                 <article class="flex-row card">
                     <div class="image-container">
                        <div class="mag-thumb prev">
@@ -837,13 +838,16 @@
                         <p>All Access + Weekly Delivery. <br>
                                 Choose A Membership That's Perfect for You!</p>
                                 <br>
+                                <a href="#">
                                 <span class="fake-button">
-                                    Subscribe
+                                  Subscribe
                                 </span>
+                               </a>
                     </div>
                 </article>
             </div>
-            <div class="col">
+            <div class="col-6-md">
+                <div class="block-title">NEWSLETTER</div>
                 <article class="flex-row card">
                     <div class="">
                         <img src="https://g.newsweek.com/themes/newsweek/images/subscribe-img2.gif"
@@ -852,7 +856,13 @@
                     <div class="overflow-wrap ">
                         <h4 class="card-title"><a class="a-main" href="">Daily Briefing</a></h4>
                         <p>Take back your inbox. Sign up for our newsletter and start making sense of the world around you.</p>
+                        <a href="#">
+                            <span class="fake-button">
+                              Subscribe
+                            </span>
+                           </a>
                     </div>
+                    
                 </article>
             </div>
 
@@ -895,7 +905,7 @@
                         <ul class="list-unstyled footer-links">
                                 <li class="nav-menu-border"><a href="">Terms & Conditions</a></li>
                                 <li class="nav-menu-border"><a href="">Privacy Policy</a></li>
-                                <li class="nav-menu-border"><a href="">Cookie Polic</a></li>
+                                <li class="nav-menu-border"><a href="">Cookie Policy</a></li>
                                 <li class="nav-menu-border"><a href="">Terms of Sale</a></li>
                                 <li class="nav-menu-border"><a href="">Archive</a></li>
                                 <li class="nav-menu-border"><a href="">Announcements</a></li>
