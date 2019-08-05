@@ -9,9 +9,6 @@ a{
 .card{
     border: none;
 }
-.card-style{
-    padding-bottom: 20;
-}
 #sticky-nav{
     position: sticky;
     background-color: red;
@@ -46,6 +43,7 @@ font-family: "Roboto Condensed",sans-serif;
 }
 .overflow-wrap{
     overflow-wrap: break-word;
+    padding-left: 20px;
 }
 .opinion-image-styling{
     padding: 12px;
@@ -90,7 +88,6 @@ font-family: "Roboto Condensed",sans-serif;
     max-width: 300px;
     height: 165px;
     background-color: #f4f5f7;
-    padding: 20;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 30px;
@@ -185,7 +182,7 @@ margin-bottom: 15px;
     height: 228px;
 }
 .image-container{
-    padding-right: 100px;
+    padding-right: 120px;
     padding-bottom: 13px;
     overflow: hidden;
 }
@@ -334,7 +331,7 @@ footer a:hover{
 .white-text{
     color: white;
 }
-h4.white-text{
+span.white-text{
     font-family: 'Merriweather', serif;
     font-weight: bold;
     padding: 6px;
@@ -344,7 +341,7 @@ h4.white-text{
     color: red;
     
 }
-h4.red-text{
+span.red-text{
     font-family: 'Merriweather', serif;
     font-weight: bold;
     padding: 6px;
