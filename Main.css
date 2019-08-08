@@ -384,7 +384,7 @@ span.red-text{
     .float-right{
         float: right;
     }
-    @media only screen and (min-width: 1280px){
+    @media only screen and (min-width: 945px){
       
         .navbar-toggler{
             display: none;
@@ -394,16 +394,19 @@ span.red-text{
     #static-nav{
         display: none;
     }
-    .navbar{
-       
+    .navbar-toggler{
+        display: inline-block;
     }
+}
+@media only screen and (max-width: 945px){
     .hide-small{
         display: none;
     }
     .newsweek-logo{
         font-size: 30px;
     }
-    .navbar-toggler{
-        display: inline-block;
-    }
+}
+@media only screen and (min-width: 768px){
+      
+    
 }
