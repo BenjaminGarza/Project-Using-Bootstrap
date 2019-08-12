@@ -63,9 +63,15 @@ font-family: "Roboto Condensed",sans-serif;
     padding: 12px;
     padding-right: 16px;
 }
-.more-stories-image-styling{
-width: 100%;
+.more-stories{
+   text-align: justify; 
+    overflow:auto; 
+}
+.more-stories-image{
+width: 135px;
+height: 90px;
 padding: 12px 2px 8px 2px;
+
 }
 .more-stories-text-styling{
     font-size: 13px;
@@ -365,12 +371,11 @@ span.red-text{
     .unstyled-hyperlink:hover{
         text-decoration: none;
     }
+
     .hidden{
        color:transparent;
     }
-    .more-stories{
-        overflow: hidden;
-    }
+
     date{
         font: 16px/34px "Roboto Condensed",sans-serif;
     }
@@ -396,6 +401,7 @@ span.red-text{
     }
     .navbar-toggler{
         display: inline-block;
+        
     }
 }
 @media only screen and (max-width: 945px){
@@ -406,7 +412,57 @@ span.red-text{
         font-size: 30px;
     }
 }
-@media only screen and (min-width: 768px){
+@media only screen and (max-width: 600px){
+      .newsweek-logo{
+          font-size: 15px;
+      }
+     .smaller-screen-h4{
+         font-size: .75rem;
+     }
+    header{
+        height: 40px;
+        
+    }
+    .navbar{
+        height: 40px;
+    }
+}
+@media only screen and (max-width: 450px){
+    .newsweek-logo{
+        font-size:7px;
+        padding-left: 2px;
+        margin: 0;
+        position: relative;
+        bottom: 3px;
+    }
+   .smaller-screen-h4{
+       font-size: .35rem;
+   }
+  #sticky-nav{
+      height: 30px;
+  }
+  .static-nav-header{
+      height:10px;
       
-    
+  }
+  .navbar{
+      height: 30px;
+      padding: 0;
+      align-items: center;
+  }
+  .navbar-toggler{
+     padding: 0;
+  }
+  .navbar-toggler-icon{
+    position: relative;
+    bottom: 12px;
+  }
+  .navbar-toggler-icon i{
+   font-size: .5em;
+   
+  }
+  .header-button-container{
+    height: 15px;
+  }
+ 
 }
