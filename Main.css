@@ -46,13 +46,13 @@ a {
 }
 
 .navbar-dropdown li:hover {
-    color: white;
-    background-color: black;
-  }
+  color: white;
+  background-color: black;
+}
 
 .footer-links li {
-    display: inline-block;
-  }
+  display: inline-block;
+}
 
 #static-nav li {
   font-size: 21px;
@@ -62,13 +62,13 @@ a {
 }
 
 footer a:hover {
-    text-decoration: none;
-    color: #666;
-  }
+  text-decoration: none;
+  color: #666;
+}
 
 footer a {
-    color: #666;
-  }
+  color: #666;
+}
 
 #static-nav a:hover {
   color: red;
