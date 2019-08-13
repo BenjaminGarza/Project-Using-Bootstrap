@@ -569,5 +569,5 @@ span.red-text {
 @media only screen and (max-width: 768px) {
     .column-breakpoint {
         flex-direction: column;
-  }
-}
+  } 
+} 
