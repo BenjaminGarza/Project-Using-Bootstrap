@@ -46,9 +46,9 @@ a {
 }
 
 .footer-links li {
-    display: inline-block;
-  }
-  
+  display: inline-block;
+}
+
 .navbar-dropdown li:hover {
   color: white;
   background-color: black;
@@ -62,8 +62,8 @@ a {
 }
 
 footer a {
-    color: #666;
-  }
+  color: #666;
+}
 
 footer a:hover {
   text-decoration: none;
