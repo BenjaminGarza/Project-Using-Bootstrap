@@ -13,6 +13,7 @@ a {
 
 .card {
   border: none;
+  overflow: auto;
 }
 
 #sticky-nav {
@@ -20,6 +21,7 @@ a {
   background-color: red;
   top: 0;
   z-index: 1;
+  height: 30px;
 }
 
 #static-nav {
@@ -43,12 +45,30 @@ a {
   height: 80%;
 }
 
+.navbar-dropdown li:hover {
+    color: white;
+    background-color: black;
+  }
+
+.footer-links li {
+    display: inline-block;
+  }
+
 #static-nav li {
   font-size: 21px;
   line-height: 24px;
   font-weight: bold;
   font-family: "Roboto Condensed", sans-serif;
 }
+
+footer a:hover {
+    text-decoration: none;
+    color: #666;
+  }
+
+footer a {
+    color: #666;
+  }
 
 #static-nav a:hover {
   color: red;
@@ -57,6 +77,8 @@ a {
 .overflow-wrap {
   overflow-wrap: break-word;
   padding-left: 20px;
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
 
 .opinion-image-styling {
@@ -106,10 +128,6 @@ a {
   margin: 15px;
 }
 
-.card {
-  overflow: auto;
-}
-
 .card-title {
   color: black;
   font-family: "Roboto Condensed", sans-serif;
@@ -156,20 +174,8 @@ a {
   max-width: 500px;
 }
 
-footer a {
-  color: #666;
-}
-
 .footer-links {
   text-align: center;
-}
-
-.footer-links li {
-  display: inline-block;
-}
-
-.title {
-  display: block;
 }
 
 .styling-other-content {
@@ -177,6 +183,7 @@ footer a {
 }
 
 .title {
+  display: block;
   border-top: 1px solid #d9d9d9;
   color: #f72210;
   padding-top: 25px;
@@ -196,11 +203,6 @@ footer a {
 
 .title-top-padding {
   padding-top: 8px;
-}
-
-.overflow-wrap {
-  padding-top: 12px;
-  padding-bottom: 12px;
 }
 
 .in-the-mag-top {
@@ -366,11 +368,6 @@ footer a {
   align-items: baseline;
 }
 
-footer a:hover {
-  text-decoration: none;
-  color: #666;
-}
-
 .social-links {
   display: flex;
   justify-content: end;
@@ -408,11 +405,6 @@ footer a:hover {
   margin-top: 8px;
   padding-left: 0;
   font-weight: bold;
-}
-
-.navbar-dropdown li:hover {
-  color: white;
-  background-color: black;
 }
 
 .white-text {
@@ -528,10 +520,6 @@ h5 {
 
 .smaller-screen-h4 {
   font-size: 0.35rem;
-}
-
-#sticky-nav {
-  height: 30px;
 }
 
 .static-nav-header {
