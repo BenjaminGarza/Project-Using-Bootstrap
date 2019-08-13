@@ -45,13 +45,13 @@ a {
   height: 80%;
 }
 
+.footer-links li {
+    display: inline-block;
+  }
+  
 .navbar-dropdown li:hover {
   color: white;
   background-color: black;
-}
-
-.footer-links li {
-  display: inline-block;
 }
 
 #static-nav li {
@@ -61,12 +61,12 @@ a {
   font-family: "Roboto Condensed", sans-serif;
 }
 
+footer a {
+    color: #666;
+  }
+
 footer a:hover {
   text-decoration: none;
-  color: #666;
-}
-
-footer a {
   color: #666;
 }
 
