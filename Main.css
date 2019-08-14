@@ -463,10 +463,11 @@ h5 {
   margin-bottom: 15px;
 }
 
-.us-image-size{
+.us-image-size {
   height: 90px;
   width: 135px;
 }
+
 @media only screen and (min-width: 945px) {
   .navbar-toggler {
     display: none;
@@ -520,37 +521,38 @@ h5 {
     bottom: 3px;
   }
 
-.smaller-screen-h4 {
-  font-size: 0.35rem;
+  .smaller-screen-h4 {
+    font-size: 0.35rem;
+  }
+
+  .static-nav-header {
+    height: 10px;
+  }
+
+  .navbar {
+    height: 30px;
+    padding: 0;
+    align-items: center;
+  }
+
+  .navbar-toggler {
+    padding: 0;
+  }
+
+  .navbar-toggler-icon {
+    position: relative;
+    bottom: 12px;
+  }
+
+  .navbar-toggler-icon i {
+    font-size: 0.5em;
+  }
+
+  .header-button-container {
+    height: 15px;
+  }
 }
 
-.static-nav-header {
-  height: 10px;
-}
-
-.navbar {
-  height: 30px;
-  padding: 0;
-  align-items: center;
-}
-
-.navbar-toggler {
-  padding: 0;
-}
-
-.navbar-toggler-icon {
-  position: relative;
-  bottom: 12px;
-}
-
-.navbar-toggler-icon i {
-  font-size: 0.5em;
-}
-
-.header-button-container {
-  height: 15px;
-}
-}
 @media only screen and (max-width: 768px) {
   .column-breakpoint {
     flex-direction: column;
