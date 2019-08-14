@@ -21,7 +21,6 @@ a {
   background-color: red;
   top: 0;
   z-index: 1;
-  height: 30px;
 }
 
 #static-nav {
@@ -464,6 +463,10 @@ h5 {
   margin-bottom: 15px;
 }
 
+.us-image-size{
+  height: 90px;
+  width: 135px;
+}
 @media only screen and (min-width: 945px) {
   .navbar-toggler {
     display: none;
@@ -516,7 +519,6 @@ h5 {
     position: relative;
     bottom: 3px;
   }
-}
 
 .smaller-screen-h4 {
   font-size: 0.35rem;
@@ -548,7 +550,7 @@ h5 {
 .header-button-container {
   height: 15px;
 }
-
+}
 @media only screen and (max-width: 768px) {
   .column-breakpoint {
     flex-direction: column;
